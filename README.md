@@ -24,6 +24,7 @@ pip3 install -r requirements.txt
 1. git clone https://github.com/NVIDIA/apex
 2. cd apex
 3. pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+4. cd ..
 <br>
 
 #### 구글 프리트레인 ViT 모델 다운로드 
