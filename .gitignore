@@ -1,13 +1,7 @@
 output/sample_run_checkpoint.bin
 ViT-B_16.npz
 __pycache__
-.ipynb_checkpoints 
-logs 
-*.ipynb
-opt/
+.ipynb_checkpoints
 <<<<<<< HEAD
-*.zip
-*.png
-pybo.py
 =======
 >>>>>>> parent of 1b4478... add gitignore
