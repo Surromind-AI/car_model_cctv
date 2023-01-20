@@ -25,7 +25,9 @@ pip3 install -r requirements.txt
 2. cd apex
 3. pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
 <br>
+
 #### 구글 프리트레인 ViT 모델 다운로드 
+
 wget https://storage.googleapis.com/vit_models/imagenet21k/ViT-B_16.npz 
 <br> 
 
