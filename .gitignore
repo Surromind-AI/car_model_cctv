@@ -1,4 +1,4 @@
-output/sample_run_checkpoint.bin
+*.bin
 ViT-B_16.npz
 __pycache__
 .ipynb_checkpoints
