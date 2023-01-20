@@ -8,22 +8,7 @@ import shutil
 from sklearn.model_selection import train_test_split 
 from sklearn.preprocessing import LabelEncoder 
 
-classid = pd.read_csv('classid.csv',index_col=0)
-classid = classid[classid['class_id']!='car-02'] 
-classid = classid[classid['class_id']!='car-04']
-classid = classid[classid['class_id']!='car-05']
-classid = classid[classid['class_id']!='car-06']
-classid['find'] = classid['label_'].apply(lambda x:x.split('#')[1])
-classid = classid[classid['find'] == 'Unknown']
-path = '../datasets/custom'
-for i in classid['label_']: 
-    try:
-        shutil.rmtree((os.path.join(path,i)))
-        print('remove')
-    except: 
-        pass
 
-print('￿')
 try:
     os.mkdir('/data/transfg/2_55_experiment/datasets/custom')
 except: 
